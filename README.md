@@ -80,7 +80,7 @@ If you find our work helpful, please consider citing:
 @article{liu2025fm4som,
   title     = {Foundation Model Empowered Synesthesia of Machines (SoM): AI-native Intelligent Multi-Modal Sensing-Communication Integration},
   author    = {Cheng, Xiang and Liu, Boxun and Liu, Xuanyu and Liu, Ensong and Huang, Ziwei},
-  journal   = {IEEE Transactions on Network and Service Management},
+  journal   = {IEEE Transactions on Network Science and Engineering},
   year      = {2025},
   note      = {Early Access},
 }
