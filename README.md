@@ -29,14 +29,14 @@ Each case study is structured as follows:
 
 ```bash
 Case Study X.Y/
-├── code/              # Main source code and inference script
+├── Codes/              # Main source code and inference script
 │   ├── Inference.py   # Entry point for reproduction
 │   ├── Weights/       # Pretrained model weights (download separately)
 │   └── data/          # Input data (download separately)
 ├── requirements.txt   # Python dependency list
 ```
 
-> 📥 **Weights and data are provided via Baidu Cloud Disk [Download link]( https://pan.baidu.com/s/1hbxZhq3M22rAdH_dbmyAzQ?pwd=PCNI ).** Please download and place them under the corresponding `code/` folder as described below.
+> 📥 **Weights and data are provided via Baidu Cloud Disk [Download link]( https://pan.baidu.com/s/1hbxZhq3M22rAdH_dbmyAzQ?pwd=PCNI ).** Please download and place them under the corresponding `Codes/` folder as described below.
 
  
 ---
@@ -47,7 +47,7 @@ Case Study X.Y/
 
 ```bash
 git clone https://github.com/liuboxun/FM4SoM.git
-cd FM4SoM/Case_Study_1.2/code    # Or cd Case_Study_2.2/code
+cd FM4SoM/Case_Study_1.2/Codes    # Or cd Case_Study_2.2/Codes
 ```
 
 ### 2. Install dependencies
