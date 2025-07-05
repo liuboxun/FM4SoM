@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ### 3. Prepare weights and data
 
-Download the `Weights/` and `data/` folders from the link above and place them under the `code/` directory.
+Download the `Weights/` and `data/` folders from the link above and place them under the `Codes/` directory.
 
 ### 4. Run the inference script
 
