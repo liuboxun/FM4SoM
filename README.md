@@ -13,10 +13,7 @@ Cheng, Xiang, et al. "Foundation Model Empowered Synesthesia of Machines (SoM): 
 In our survey, we propose two roadmaps for enabling AI-native multi-modal sensing-communication integration using **Foundation Models (FMs)**:
 
 - **Roadmap 1**: Large Language Models Empowered SoM System Design  
-  ![Roadmap 1](./pics/RoadMap1.png)
-
 - **Roadmap 2**: Wireless Foundation Models Empowered SoM System Design  
-  ![Roadmap 2](./pics/RoadMap2.png)
 
 A total of **five case studies** are discussed in the paper. Due to some of them being based on manuscripts not yet published, we only release code for **two representative case studies**, one from each roadmap:
 
