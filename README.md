@@ -19,8 +19,8 @@ A total of **five case studies** are discussed in the paper. Due to some of them
 
 | Case Study         | Roadmap Origin | Folder Path          |
 |--------------------|----------------|-----------------------|
-| Case Study 1.2     | Roadmap 1      | `./Case Study 1.2/`   |
-| Case Study 2.2     | Roadmap 2      | `./Case Study 2.2/`   |
+| Case Study 1.2     | Roadmap 1      | `./Case_Study_1.2/`   |
+| Case Study 2.2     | Roadmap 2      | `./Case_Study_2.2/`   |
 
 ---
 ## 📁 Directory Structure
@@ -30,8 +30,8 @@ Each case study is structured as follows:
 ```bash
 Case Study X.Y/
 ├── code/              # Main source code and inference script
-│   ├── inference.py   # Entry point for reproduction
-│   ├── weights/       # Pretrained model weights (download separately)
+│   ├── Inference.py   # Entry point for reproduction
+│   ├── Weights/       # Pretrained model weights (download separately)
 │   └── data/          # Input data (download separately)
 ├── requirements.txt   # Python dependency list
 ```
@@ -47,7 +47,7 @@ Case Study X.Y/
 
 ```bash
 git clone https://github.com/liuboxun/FM4SoM.git
-cd FM4SoM/Case\ Study\ 1.2/code    # Or cd Case\ Study\ 2.2/code
+cd FM4SoM/Case_Study_1.2/code    # Or cd Case_Study_2.2/code
 ```
 
 ### 2. Install dependencies
@@ -60,12 +60,12 @@ pip install -r requirements.txt
 
 ### 3. Prepare weights and data
 
-Download the `weights/` and `data/` folders from the link above and place them under the `code/` directory.
+Download the `Weights/` and `data/` folders from the link above and place them under the `code/` directory.
 
 ### 4. Run the inference script
 
 ```bash
-python inference.py
+python Inference.py
 ```
 
 This will reproduce the results for the selected case study as described in the paper.
