@@ -77,7 +77,7 @@ This will reproduce the results for the selected case study as described in the 
 If you find our work helpful, please consider citing:
 
 ```bibtex
-@article{liu2025fm4som,
+@article{cheng2025fm4som,
   title     = {Foundation Model Empowered Synesthesia of Machines (SoM): AI-native Intelligent Multi-Modal Sensing-Communication Integration},
   author    = {Cheng, Xiang and Liu, Boxun and Liu, Xuanyu and Liu, Ensong and Huang, Ziwei},
   journal   = {IEEE Transactions on Network Science and Engineering},
