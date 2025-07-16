@@ -1,0 +1,62 @@
+architecture:
+  vqgan_RGB:
+    img_channels: 3
+    img_size: 128
+    latent_channels: 512
+    latent_size: 16
+    intermediate_channels: [128, 128, 256, 256, 512]
+    # intermediate_channels: [128, 256, 256, 512]
+    num_residual_blocks_encoder: 2
+    num_residual_blocks_decoder: 3
+    dropout: 0.0
+    attention_resolution: [16]
+    num_codebook_vectors: 2048
+
+  vqgan_CIR:
+    img_channels: 1
+    img_size: 128
+    latent_channels: 512
+    latent_size: 16
+    intermediate_channels: [ 128, 128, 256, 256, 512 ] #五个的话是降采样4次，128变成8
+    # intermediate_channels: [ 128, 256, 256, 512 ] #五个的话是降采样4次，128变成8
+    num_residual_blocks_encoder: 2
+    num_residual_blocks_decoder: 3
+    dropout: 0.0
+    attention_resolution: [ 16 ]
+    num_codebook_vectors: 2048
+
+  transformer:
+    sos_token: 0
+    pkeep: 0.5
+    block_size: 512
+    n_layer: 8
+    n_head: 16
+    n_embd: 1024 # 和vqgan的latent_channels保持一致
+
+trainer:
+  vqgan_RGB:
+    learning_rate: 2.25e-05
+    beta1: 0.5
+    beta2: 0.9
+    perceptual_loss_factor: 1.0
+    rec_loss_factor: 1.0
+    disc_factor: 1.0
+    disc_start: 1000 # 是batch的数量
+    perceptual_model: "vgg"
+    save_every: 50
+
+  vqgan_CIR:
+    learning_rate: 2.25e-05
+    beta1: 0.5
+    beta2: 0.9
+    perceptual_loss_factor: 1.0
+    rec_loss_factor: 1.0
+    disc_factor: 1.0
+    disc_start: 1000
+    perceptual_model: "vgg"
+    save_every: 50
+
+  transformer:
+    learning_rate: 4.5e-06
+    beta1: 0.9
+    beta2: 0.95

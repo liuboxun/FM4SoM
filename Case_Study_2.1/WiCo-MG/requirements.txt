@@ -1,0 +1,13 @@
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+torchsummary==1.5.1
+scipy==1.7.3
+numpy==1.22.4
+Pillow==9.2.0
+opencv-python==4.11.0.86
+imageio==2.9.0
+tqdm==4.67.1
+aim==3.27.0
+aim-ui==3.27.0
+PyYAML==6.0.1
