@@ -15,12 +15,16 @@ In our survey, we propose two roadmaps for enabling AI-native multi-modal sensin
 - **Roadmap 1**: Large Language Models Empowered SoM System Design  
 - **Roadmap 2**: Wireless Foundation Models Empowered SoM System Design  
 
-A total of **five case studies** are discussed in the paper. Due to some of them being based on manuscripts not yet published, we only release code for **two representative case studies**, one from each roadmap:
+A total of **five case studies** are discussed in the paper. 
 
 | Case Study         | Roadmap Origin | Folder Path          |
 |--------------------|----------------|-----------------------|
+| Case Study 1.1     | Roadmap 1      | `./Case_Study_1.1/`   |
 | Case Study 1.2     | Roadmap 1      | `./Case_Study_1.2/`   |
+| Case Study 2.1     | Roadmap 2      | `./Case_Study_2.1/`   |
 | Case Study 2.2     | Roadmap 2      | `./Case_Study_2.2/`   |
+| Case Study 2.3     | Roadmap 2      | `./Case_Study_2.3/`   |
+
 
 ---
 ## 📁 Directory Structure
